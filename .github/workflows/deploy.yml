@@ -2,9 +2,9 @@ name: Hexo Blog
 
 on:
   workflow_dispatch:
-  # push:
-  #   branches:
-  #     - main  # default branch
+  push:
+    branches:
+      - main  # default branch
 
 jobs:
   deploy:
