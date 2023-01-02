@@ -1,8 +1,15 @@
+### OS Related ###
 .DS_Store
 Thumbs.db
-db.json
-*.log
+
+### NodeJs ###
 node_modules/
+
+### Hexo & Themes Related ###
 public/
 .deploy*/
+
+db.json
 _multiconfig.yml
+*.log
+_config.*.yml.*
