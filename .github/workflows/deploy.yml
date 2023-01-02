@@ -1,6 +1,7 @@
 name: Hexo Blog
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main  # default branch
