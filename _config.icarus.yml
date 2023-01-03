@@ -109,7 +109,7 @@ sidebar:
 widgets:
   - position: left
     type: profile
-    author: Nicholas
+    author: Nicholas Siew
     author_title: Software Engineer
     location: Greater Kuala Lumpur, Malaysia
     avatar: null
@@ -117,6 +117,9 @@ widgets:
     gravatar: null
     # follow_link: 'https://github.com/ppoffice'
     social_links:
+      LinkedIn:
+        icon: fab fa-linkedin
+        url: 'https://www.linkedin.com/in/nicholassiewkl'
       Github:
         icon: fab fa-github
         url: 'https://github.com/nicholassiew1991'
