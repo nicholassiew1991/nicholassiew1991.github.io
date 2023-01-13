@@ -5,8 +5,8 @@ keywords: null
 author: Nicholas Siew
 language: en
 timezone: ''
-url: http://example.com
-permalink: ':year/:month/:day/:title/'
+url: https://nicholassiew1991.github.io/
+permalink: ':abbrlink/'
 permalink_defaults: null
 pretty_urls:
   trailing_index: true
@@ -19,7 +19,9 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: ':lang'
 skip_render: null
-new_post_name: ':title.md'
+
+### Writing ###
+new_post_name: ':year/:month/:year.:month.:day-:title.md' # File name of new posts
 default_layout: post
 titlecase: false
 external_link:
