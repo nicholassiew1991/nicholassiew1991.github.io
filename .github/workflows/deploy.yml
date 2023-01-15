@@ -27,6 +27,8 @@ jobs:
         run: npm install
       - name: Build
         run: npm run build
+      - name: Download Resume
+        run: wget "https://docs.google.com/document/d/1Kf4SZogOunaaM5uOI8Z0a47yzBsE19vzO8xEE59pW9g/export?format=pdf" -O ./public/resume.pdf
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
